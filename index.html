@@ -710,15 +710,16 @@
         <p>Os indicadores mostram o retorno teórico (RTP) oficial do provedor em tempo real para ajudar na sua escolha.</p>
       </div>
     </div>
-  </div>
-</div>
-<style>
-  /* Mantém o tamanho original e sobe apenas o foco da imagem */
-  #rtpGrid > *:nth-child(9) img,
-  #rtpGrid > *:nth-child(6) img {
- object-fit: contain !important;
-    transform: scale(1.18) translateY(-4px) !important;
+  <style>
+  #rtpGrid > *:nth-child(6) img,
+  #rtpGrid > *:nth-child(9) img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center top !important;
+    transform: none !important;
   }
 </style>
+
 </body>
 </html>
