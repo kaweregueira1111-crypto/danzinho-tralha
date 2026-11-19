@@ -713,13 +713,12 @@
   </div>
 </div>
 <style>
- 
+  /* Mantém o tamanho original e sobe apenas o foco da imagem */
   #rtpGrid > *:nth-child(9) img,
   #rtpGrid > *:nth-child(6) img {
-    object-fit: contain !important;
-    transform: scale(0.82);
+    object-fit: cover !important;
+    object-position: center 15% !important;
   }
 </style>
-
 </body>
 </html>
